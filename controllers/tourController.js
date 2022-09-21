@@ -1,5 +1,5 @@
 const { query } = require('express');
-const AppError = require('../appError');
+const AppError = require('./../utils/appError');
 const Tour = require('./../models/tourModel');
 const APIFeatures = require('./../utils/apiFeatures');
 const catchAsync = require('./../utils/catchAsync');
